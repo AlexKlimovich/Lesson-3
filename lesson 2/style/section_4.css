@@ -33,7 +33,7 @@ font-weight: 410;
   gap: 32px;     
   align-items: flex-end;      
   font-family: "Inter", sans-serif;
-font-weight: 100;     
+font-weight: 400;     
 }
 
 .block_5_content div {
@@ -41,5 +41,9 @@ font-weight: 100;
 }
 
 .content_img_2 {
+    margin-left: 32px;
+}
+
+.content_text_block_5 {
     margin-left: 32px;
 }

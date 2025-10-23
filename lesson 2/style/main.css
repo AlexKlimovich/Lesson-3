@@ -1,18 +1,16 @@
 @font-face {
   font-family: "Inter";
-  src:
-    url("./fonts/Inter/Inter.woff2") format("woff2"); 
-  font-style: normal; 
-  font-weight: normal; 
-} 
+  src: url("./fonts/Inter/Inter.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
 
 @font-face {
   font-family: "Fraunces";
-  src:
-    url("./fonts/Fraunces/Fraunces.ttf") format("truetype"); 
-  font-style: normal; 
-  font-weight: normal; 
-} 
+  src: url("./fonts/Fraunces/Fraunces.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 .inter-1 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -25,26 +23,31 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "SOFT" 0,
-    "WONK" 0;
+  font-variation-settings: "SOFT" 0, "WONK" 0;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.flex_center
-{
-    display: flex;
-    align-items: center;
+.flex_center {
+  display: flex;
+  align-items: center;
 }
-
 
 .base_but {
   padding: 6px 20px;
   cursor: pointer;
   border: none;
+}
+.base_but_2 {
+  padding: 8px 32px;
+  cursor: pointer;
+  border: none;
+}
+
+.padding_footer {
+  padding-bottom: 79.98px;
 }
