@@ -16,12 +16,6 @@
     <link rel="stylesheet" href="./style/section_7.css" />
     <link rel="stylesheet" href="./style/section_8.css" />
     <link rel="stylesheet" href="./style/footer.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <header class="header flex_center">
@@ -129,7 +123,7 @@
             </h2>
           </div>
           <div class="flex_center">
-            <div class="faq">
+            <!--<div class="faq">
               <details>
                 <summary>
                   <img
@@ -184,6 +178,76 @@
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </details>
+            </div>-->
+            <div class="faq">
+              <input
+                type="radio"
+                name="accordion"
+                id="faq1"
+                class="faq-input"
+                checked
+              />
+              <label for="faq1" class="faq-title">
+                <img class="sum_img" src="./img/pin.svg" alt="Скрепка" />
+                Anti-loss technology
+              </label>
+              <div class="faq-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+
+              <input
+                type="radio"
+                name="accordion"
+                id="faq2"
+                class="faq-input"
+              />
+              <label for="faq2" class="faq-title">
+                <img class="sum_img" src="./img/smile.svg" alt="Смайл" />
+                Exchange easily
+              </label>
+              <div class="faq-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+
+              <input
+                type="radio"
+                name="accordion"
+                id="faq3"
+                class="faq-input"
+              />
+              <label for="faq3" class="faq-title">
+                <img class="sum_img" src="./img/letter.svg" alt="Письмо" />
+                Fully encrypted
+              </label>
+              <div class="faq-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+
+              <input
+                type="radio"
+                name="accordion"
+                id="faq4"
+                class="faq-input"
+              />
+              <label for="faq4" class="faq-title">
+                <img class="sum_img" src="./img/lightning2.svg" alt="Молния" />
+                Plenty of options
+              </label>
+              <div class="faq-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
             </div>
             <div>
               <img alt="Компьютер" src="./img/PC.svg" />
@@ -424,35 +488,28 @@
               Sign up for the latest news, company insights, and Whirl updates.
             </p>
             <div class="block_10_email">
-            <form class="email-form">
-  <input type="email" placeholder="Your email" required>
-  <button type="submit"><img  
-              alt="Стрелка вправо"
-              src="./img/email.svg"
-            /></button>
-</form></div>
+              <form class="email-form">
+                <input type="email" placeholder="Your email" required />
+                <button type="submit">
+                  <img alt="Стрелка вправо" src="./img/email.svg" />
+                </button>
+              </form>
+            </div>
           </div>
         </div>
         <hr />
         <div class="block_10_last">
-            <div><p class="block_10_text_1">© 2022 Whirl. All Rights Reserved. Illustrations by <span class="block_10_text_2">Streamline</span>.</p></div>
-            <div class="block_10_logo">
-                <img
-              
-              alt="Twitter логотип"
-              src="./img/twitter.svg"
-            />
-        <img
-              
-              alt="Instagram логотип"
-              src="./img/instagram.svg"
-            />
-        <img
-    
-              alt="Facebook логотип"
-              src="./img/facebook.svg"
-            />
-        </div>
+          <div>
+            <p class="block_10_text_1">
+              © 2022 Whirl. All Rights Reserved. Illustrations by
+              <span class="block_10_text_2">Streamline</span>.
+            </p>
+          </div>
+          <div class="block_10_logo">
+            <img alt="Twitter логотип" src="./img/twitter.svg" />
+            <img alt="Instagram логотип" src="./img/instagram.svg" />
+            <img alt="Facebook логотип" src="./img/facebook.svg" />
+          </div>
         </div>
       </div>
     </footer>

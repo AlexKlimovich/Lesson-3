@@ -1,29 +1,15 @@
 @font-face {
   font-family: "Inter";
-  src: url("./fonts/Inter/Inter.woff2") format("woff2");
+  src: url("../fonts/Inter/Inter.woff2") format("woff2");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Fraunces";
-  src: url("./fonts/Fraunces/Fraunces.ttf") format("truetype");
+  src: url("../fonts/Fraunces/Fraunces.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
-}
-.inter-1 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.fraunces-1 {
-  font-family: "Fraunces", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings: "SOFT" 0, "WONK" 0;
 }
 
 * {
